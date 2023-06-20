@@ -1,0 +1,204 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import 'base/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* CSS print */
+@import 'base/print';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* Mixins, helpers and functions */
+@import 'base/mixins';
+
+/* Vendor */
+
+/* Components */
+
+/* Browser specific styles */
+@import 'dirty/hacks';
+
+/* Demo Page styles */
+@import 'demo';
+
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  h1 {
+    font-size: 4rem !important;
+  }
+  
+  .link:hover {
+    cursor: pointer;
+  }
+  
+  .expertTag {
+    transform: rotate(-15deg);
+    border: 1px solid #6f77f1;
+    position: absolute;
+    margin-left: 1rem;
+  }
+  
+  .commonText {
+    color: #6f77f1;
+  }
+  
+  p {
+    color: #666565 !important;
+  }
+  
+  .commonColour {
+    background-color: #fad725 !important;
+  }
+  
+  .differentColour {
+    background-color: #6f77f1 !important;
+  }
+  
+  .commonBackground {
+    background-color: #fafafa !important;
+  }
+  
+  .item {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+  }
+  
+  .needItem {
+    transition-duration: 2s;
+  }
+  
+  .needItem:hover {
+    box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+    transform: scale(1.1, 1.1);
+  }
+  
+  .statsItem {
+    color: #666565;
+  }
+  
+  a:hover {
+    border-bottom: 2px solid #6f77f1;
+  }
+  
+  .optimise {
+    transition-duration: 2s;
+  }
+  
+  .optimise:hover {
+    border-bottom: 2px solid #6f77f1;
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    transform: scale(1.1, 1.1);
+  }
+  
+  .benefits {
+    transition-duration: 2s;
+  }
+  
+  .benefits:hover {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    transform: scale(1.1, 1.1);
+  }
+  
+  .one {
+    background-image: url("../images/design/one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .two {
+    background-image: url("../images/design/two.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .three {
+    background-image: url("../images/design/three.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .four {
+    background-image: url("../images/design/four.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .plan {
+    transition-duration: 2s;
+  }
+  
+  .plan:hover {
+    background-color: #6f77f1;
+    .content {
+      color: white !important;
+    }
+    .planButton {
+      background-color: #fad725 !important;
+      border: none !important;
+    }
+    transform: scale(1.1, 1.1);
+  }
+  
+  .team:hover {
+    .content {
+      color: #6f77f1;
+    }
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    transform: scale(1.1, 1.1);
+  }
+  
+  .team {
+    transition-duration: 2s;
+  }
+  
+  i:hover {
+    color: #6f77f1;
+    cursor: pointer;
+  }
+  
+  .clients {
+    background: url("../images/design/comma.png");
+    background-repeat: no-repeat;
+    transition-duration: 2s;
+  }
+  
+  .clients:hover {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    transform: scale(1.1, 1.1);
+    border: none;
+  }
+  
+  .perksItem {
+    transition-duration: 2s;
+  }
+  
+  .perksItem:hover {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    transform: scale(1.1, 1.1);
+  }
+  
+  @media (max-width: 425px) {
+    h1 {
+      font-size: 2rem !important;
+    }
+  
+    .expertTag {
+      transform: rotate(-15deg);
+      border: 1px solid #6f77f1;
+      position: absolute;
+      margin-left: 0rem;
+    }
+  }
